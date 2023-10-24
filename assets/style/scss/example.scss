@@ -1,0 +1,11 @@
+ .example-view{
+    width: 100vw;
+    min-height: 100vh;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    .example-view-container{
+        width: 70%;
+    }
+
+ }

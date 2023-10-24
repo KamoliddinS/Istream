@@ -1,43 +1,42 @@
 {
-  "name": "test",
-  "version": "0.1.0",
+  "name": "nuxt-app",
   "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "bootstrap": "^5.2.3",
-    "react": "^18.2.0",
-    "react-bootstrap": "^2.7.2",
-    "react-dom": "^18.2.0",
-    "react-router": "^6.8.2",
-    "react-router-dom": "^6.8.2",
-    "react-scripts": "5.0.1",
-    "sass": "^1.58.3",
-    "web-vitals": "^2.1.4"
-  },
+  "type": "module",
+  "author": "Alisher Parpiev | Unicon.uz",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@pinia-plugin-persistedstate/nuxt": "^1.1.2",
+    "autoprefixer": "^10.4.16",
+    "nuxt": "^3.7.4",
+    "nuxt-lodash": "^2.5.0",
+    "nuxt-svgo": "^3.5.5",
+    "postcss": "^8.4.31",
+    "sass": "^1.69.2",
+    "sass-loader": "^13.3.2",
+    "tailwindcss": "^3.3.3",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/svg": "^0.4.1",
+    "@pinia/nuxt": "^0.4.11",
+    "@vee-validate/nuxt": "^4.11.8",
+    "@vee-validate/rules": "^4.11.8",
+    "@vee-validate/yup": "^4.11.8",
+    "axios": "^1.5.1",
+    "flowbite": "^1.8.1",
+    "flowbite-vue": "^0.1.0",
+    "maska": "^2.1.10",
+    "pinia": "^2.1.6",
+    "v-mask": "^2.3.0",
+    "yup": "^1.3.2"
   }
 }
